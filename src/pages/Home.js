@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <>
+    {/* section one */}
       <section className="home-wrapper-1 py-5">
         <div className="container-xxl">
           <div className="row">
@@ -155,6 +156,25 @@ function Home() {
 
               </div>
               
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* section two */}
+      <section className="home-wrapper-2 py-5">
+        <div className="cotainer-xxl">
+          <div className="row">
+            <div className="col-12">
+              <div className="servies d-flex align-items-center justify-content-between">
+
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                
+              </div>
             </div>
           </div>
         </div>
