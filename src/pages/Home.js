@@ -163,17 +163,55 @@ function Home() {
 
       {/* section two */}
       <section className="home-wrapper-2 py-5">
-        <div className="cotainer-xxl">
+        <div className="container-xxl">
           <div className="row">
             <div className="col-12">
               <div className="servies d-flex align-items-center justify-content-between">
 
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                
+                <div className="d-flex align-items-center gap-15">
+                  <i class="uil uil-truck"></i>
+                  <div>
+                    <h6>Free Shaping</h6>
+                    <p className="mb-0">From all ordered over $100</p>
+                  </div>
+                </div>
+
+
+                <div className="d-flex align-items-center gap-15">
+                  <i class="uil uil-forwaded-call"></i>
+                  <div>
+                    <h6>Support 24/7</h6>
+                    <p className="mb-0">Shop with an expert</p>
+                  </div>
+                </div>
+
+
+                <div className="d-flex align-items-center gap-15">
+                <i class="uil uil-trophy"></i>
+                  <div>
+                    <h6>Daily Surprise Offers</h6>
+                    <p className="mb-0">Save up to 25% Off</p>
+                  </div>
+                </div>
+
+
+                <div className="d-flex align-items-center gap-15">
+                <i class="uil uil-transaction"></i>
+                  <div>
+                    <h6>Secure Payments</h6>
+                    <p className="mb-0">100% Protected Payments</p>
+                  </div>
+                </div>
+
+
+                <div className="d-flex align-items-center gap-15">
+                <i class="uil uil-percentage"></i>
+                  <div>
+                    <h6>Affordable Pries</h6>
+                    <p className="mb-0">Get Factory direct price</p>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
