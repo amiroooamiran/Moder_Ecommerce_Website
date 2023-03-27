@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <>
-    {/* section one */}
+      {/* section one */}
       <section className="home-wrapper-1 py-5">
         <div className="container-xxl">
           <div className="row">
@@ -100,8 +100,7 @@ function Home() {
 
             <div className="col-6">
               <div className="d-flex flex-wrap gap-10 justify-content-between align-items-center">
-
-              <div className="small-banner position-relative">
+                <div className="small-banner position-relative">
                   <img
                     src="images/small-banner/small-banner-1.png"
                     className="img-fluid rounded-1"
@@ -123,10 +122,11 @@ function Home() {
                   <div className="small-banner-content position-absolute">
                     <h4>Headphons</h4>
                     <h5>Logitect headphon</h5>
-                    <p>Usally peapol liked this <br /> headphon.</p>
+                    <p>
+                      Usally peapol liked this <br /> headphon.
+                    </p>
                   </div>
                 </div>
-
 
                 <div className="small-banner position-relative">
                   <img
@@ -137,7 +137,9 @@ function Home() {
                   <div className="small-banner-content position-absolute">
                     <h4>Laptops</h4>
                     <h5>Mack Book m2 </h5>
-                    <p>this message its test for <br/> container.</p>
+                    <p>
+                      this message its test for <br /> container.
+                    </p>
                   </div>
                 </div>
 
@@ -150,12 +152,12 @@ function Home() {
                   <div className="small-banner-content position-absolute">
                     <h4>Whatchs</h4>
                     <h5>test h5 from me</h5>
-                    <p>this message <br/> its test for container</p>
+                    <p>
+                      this message <br /> its test for container
+                    </p>
                   </div>
                 </div>
-
               </div>
-              
             </div>
           </div>
         </div>
@@ -167,7 +169,6 @@ function Home() {
           <div className="row">
             <div className="col-12">
               <div className="servies d-flex align-items-center justify-content-between">
-
                 <div className="d-flex align-items-center gap-15">
                   <i class="uil uil-truck"></i>
                   <div>
@@ -175,7 +176,6 @@ function Home() {
                     <p className="mb-0">From all ordered over $100</p>
                   </div>
                 </div>
-
 
                 <div className="d-flex align-items-center gap-15">
                   <i class="uil uil-forwaded-call"></i>
@@ -185,33 +185,29 @@ function Home() {
                   </div>
                 </div>
 
-
                 <div className="d-flex align-items-center gap-15">
-                <i class="uil uil-trophy"></i>
+                  <i class="uil uil-trophy"></i>
                   <div>
                     <h6>Daily Surprise Offers</h6>
                     <p className="mb-0">Save up to 25% Off</p>
                   </div>
                 </div>
 
-
                 <div className="d-flex align-items-center gap-15">
-                <i class="uil uil-transaction"></i>
+                  <i class="uil uil-transaction"></i>
                   <div>
                     <h6>Secure Payments</h6>
                     <p className="mb-0">100% Protected Payments</p>
                   </div>
                 </div>
 
-
                 <div className="d-flex align-items-center gap-15">
-                <i class="uil uil-percentage"></i>
+                  <i class="uil uil-percentage"></i>
                   <div>
                     <h6>Affordable Pries</h6>
                     <p className="mb-0">Get Factory direct price</p>
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
