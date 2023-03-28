@@ -227,7 +227,20 @@ footer .input-group-text{
 /* Home wraper 2 end */
 
 /* categories section */
+.categories{
+  background-color: white;
+  box-shadow: 0 0 10px #0000001a;
+  padding: 15px;
+  border-radius: 5px;
+}
 
+.categories > div{
+  width: 24%;
+}
+
+.categories > div > img{
+  width: 80px;
+}
 /* categories section */
 
 /* End Of the Home Page */
