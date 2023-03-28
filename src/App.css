@@ -238,6 +238,11 @@ footer .input-group-text{
 .categories > div{
   width: 25%;
   padding: 10px 10px 10px 20px;
+  transition: 0.3s;
+}
+
+.categories > div:hover{
+  background-color: var(--color-febd69);
 }
 
 .categories > div > div{
