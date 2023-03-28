@@ -213,6 +213,19 @@ function Home() {
           </div>
         </div>
       </section>
+
+      {/* section three */}
+      <section className="home-erapper-2 py-5">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <div className="categories">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
