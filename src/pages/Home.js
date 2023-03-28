@@ -219,8 +219,44 @@ function Home() {
         <div className="container-xxl">
           <div className="row">
             <div className="col-12">
-              <div className="categories">
+              <div className="categories d-flex justify-content-between align-items-center">
+
+                <div className="d-flex gap-30 align-items-center">
+                  <div>
+                    <h6>Cameras</h6>
+                    <p>10 Items</p>
+                  </div>
+                  <img src="/images/categories/camera.png" alt="categories" />
+                </div>
+
+                <div className="d-flex gap-30 align-items-center">
+                  <div>
+                    <h6>Smart TV</h6>
+                    <p>20 Items</p>
+                  </div>
+                  <img src="/images/categories/smart-tv.png" alt="categories" />
+                </div>
+
+
+                <div className="d-flex gap-30 align-items-center">
+                  <div>
+                    <h6>Smart watch</h6>
+                    <p>18 Items</p>
+                  </div>
+                  <img src="/images/categories/smart-watch.png" alt="categories" />
+                </div>
+
                 
+
+                <div className="d-flex gap-30 align-items-center">
+                  <div>
+                    <h6>Music & Game</h6>
+                    <p>10 Items</p>
+                  </div>
+                  <img src="/images/categories/ps-controller.png" alt="categories" />
+                </div>
+
+
               </div>
             </div>
           </div>
