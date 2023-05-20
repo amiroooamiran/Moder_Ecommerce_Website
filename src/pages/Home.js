@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 
 // Section of Importing Difrents Libraris
 import Marquee from "react-fast-marquee";
+import BlogCards from "../components/BlogCards";
+import { blogData } from "../data/BlogData";
 
 function Home() {
   return (
@@ -338,6 +340,23 @@ function Home() {
                 </Marquee>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      {/* section five */}
+      <section className="blog-erapper py-5 home-erapper-2">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <h3 className="section-heading">Our Latest Blogs</h3>
+            </div>
+            {
+              blogData.map((blogs) =>{
+                return(
+                  <BlogCards blogs={blogs} />
+                )
+              })
+            }
           </div>
         </div>
       </section>
