@@ -16,6 +16,13 @@
 }
 /* color Section */
 
+/* adding after Marquee */
+.card-wrapper {
+  background-color: white;
+  box-shadow: 0 0 10px #0000001a;
+  padding: 15px;
+}
+
 body{
   font-family: 'Rubik', sans-serif;
 }
@@ -274,4 +281,8 @@ footer .input-group-text{
 
 /* categories section */
 
+/* brands section */
+.marquee-inner-wrapper  div > img{
+  width: 200px;
+}
 /* End Of the Home Page */
