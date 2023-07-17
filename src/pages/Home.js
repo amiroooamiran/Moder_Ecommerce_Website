@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import Marquee from "react-fast-marquee";
 import BlogCards from "../components/BlogCards";
 import { blogData } from "../data/BlogData";
+import ProductCard from "../components/ProductCard";
 
 function Home() {
   return (
@@ -344,6 +345,20 @@ function Home() {
         </div>
       </section>
       {/* section five */}
+      <section className="blog-erapper py-5 home-erapper-2">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <h3 className="section-heading">Featuerd Collection</h3>
+            </div>
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+          </div>
+        </div>
+      </section>
+      {/* section Six */}
       <section className="blog-erapper py-5 home-erapper-2">
         <div className="container-xxl">
           <div className="row">
