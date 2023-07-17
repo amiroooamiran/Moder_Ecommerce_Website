@@ -1,4 +1,4 @@
-
+import ReactStars from "react-rating-stars-component";
 import React from 'react';
 
 const ProductCard = () => {
@@ -14,7 +14,7 @@ const ProductCard = () => {
                 aesthetic video gym girl video motorcycle couple video sky.
                 </h5>
             </div>
-            
+            <ReactStars count={5} size={24} activeColor="#ffd700"/>
             <p className='price'>$100.00</p>
 
 
