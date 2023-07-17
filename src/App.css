@@ -14,6 +14,7 @@
   --color-f5f5f7: #f5f5f7;
   --color-ededed: #ededed;
   --color-777777: #777777;
+  --color-1c1c1b: #1c1c1b;
 }
 /* color Section */
 
@@ -332,5 +333,32 @@ footer .input-group-text{
   color: var(--color-777777);
 }
 /* End of Blog Section */
+
+/* Product Cards */
+.product-card{
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.product-card .product-image img{
+  width: 100%;
+}
+.product-card .product-details h6{
+  color: var(--color-bf4800);
+  font-size: 13px;
+}
+
+.product-card .product-details h5{
+  color: var(--color-1c1c1b);
+  font-size: 15px;
+}
+
+.product-card .product-details p.price{
+  color: var(--color-1c1c1b);
+  font-size: 16px;
+}
+/* End of product Cards */
+
 
 /* End Of the Home Page */
