@@ -358,6 +358,11 @@ footer .input-group-text{
   color: var(--color-1c1c1b);
   font-size: 16px;
 }
+
+.product-card .action-bar{
+  top: 20%;
+  right: 10px;
+}
 /* End of product Cards */
 
 
