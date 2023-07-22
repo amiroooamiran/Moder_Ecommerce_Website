@@ -354,7 +354,7 @@ function Home() {
             <ProductCard />
             <ProductCard />
             <ProductCard />
-            <ProductCard />
+            <ProductCard /> 
           </div>
         </div>
       </section>

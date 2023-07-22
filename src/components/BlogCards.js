@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 const BlogCards = (props) => {
 
     const {image, date, title, desc} = props.blogs;
-    return (
+    return (  
         <div className='col-3'>
             <div className='blog-card'>
                 <div className='card-image'>
